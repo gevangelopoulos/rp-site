@@ -6,6 +6,11 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        'my-image': "url('./images/featured/pexels-hendrikbgr-744318.jpg')",
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -57,6 +62,15 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            p: {
+              'text-align': 'center', // or as it is in css (but in quotes).
+            },
+            h1: {
+                'text-align': 'center',
+            },
+            h2: {
+                'text-align': 'center',
+            },
             '--tw-prose-body': theme('colors.zinc[800]'),
             '--tw-prose-headings': theme('colors.zinc[900]'),
             '--tw-prose-lead': theme('colors.zinc[700]'),
@@ -91,6 +105,7 @@ module.exports = {
             '--tw-prose-invert-td-borders': theme('colors.zinc[500]'),
           },
         },
+
       }),
     },
   },

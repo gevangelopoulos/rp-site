@@ -14,16 +14,16 @@
                         {{ .Site.Params.Description}}
                     </p>
                 </div>
-                <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}
+{{/*                <div class="col-span-6">*/}}
+{{/*                    {{ $hero := resources.GetMatch "images/pages/tailbliss-rocket-indigo.png" }}*/}}
 
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
+{{/*                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}*/}}
+{{/*                    {{ $large := ($hero.Fill "576x576 webp q90") }}*/}}
 
-                    <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
-                </div>
+{{/*                    <img srcset="*/}}
+{{/*                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}*/}}
+{{/*                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />*/}}
+{{/*                </div>*/}}
             </div>
         </div>
     </div>
@@ -67,7 +67,13 @@
                                 {{ .text }}
                             </p>
                             {{ end }}
+                            <div class="mt-4 sm:mt-0 sm:ml-0">
+                                <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                {{ .Site.Params.P1.Button }}
+                                </button>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -84,11 +90,15 @@
                             {{ .Site.Params.P2.Heading }}
                         </h2>
                         {{ range .Site.Params.P2.Content }}
-                        <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
+                        <p class="pb-12 mt-0 text-lg text-gray-900 dark:text-white">
                             {{ .text }}
                         </p>
                         {{ end }}
-                        </p>
+                        <div class="mt-4 sm:mt-0 sm:ml-0">
+                            <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                {{ .Site.Params.P2.Button }}
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,7 +145,7 @@
                 <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
                     <div class="overflow-hidden shadow-xl rounded-2xl">
                         {{ $p6image := resources.Get .Site.Params.P6.Image }}
-                        {{ with $p1image }}
+                        {{ with $p6image }}
                             {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
                                 <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P6" loading="lazy" />
                             {{ end }}
@@ -155,6 +165,11 @@
                                     {{ .text }}
                                 </p>
                             {{ end }}
+                            <div class="mt-4 sm:mt-0 sm:ml-0">
+                                <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                    {{ .Site.Params.P6.Button }}
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -162,7 +177,7 @@
         </div>
     </div>
 
-    <!-- Mixing and Mastering -->
+    <!-- Record Label -->
     <div class="overflow-hidden sm:pt-6 lg:relative">
         <div class="max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-12 lg:px-8">
             <div>
@@ -172,11 +187,15 @@
                             {{ .Site.Params.P7.Heading }}
                         </h2>
                         {{ range .Site.Params.P7.Content }}
-                            <p class="pb-12 mt-6 text-lg text-gray-900 dark:text-white">
+                            <p class="pb-12 mt-0 text-lg text-gray-900 dark:text-white">
                                 {{ .text }}
                             </p>
                         {{ end }}
-                        </p>
+                        <div class="mt-4 sm:mt-0 sm:ml-0">
+                            <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                {{ .Site.Params.P7.Button }}
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,7 +214,7 @@
                 </div>
                 <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
                     {{ $p7image := resources.Get .Site.Params.P7.Image }}
-                    {{ with $p2image }}
+                    {{ with $p7image }}
                         {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
                             <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="p2" class="w-full rounded-lg shadow-xl lg:h-full lg:w-auto lg:max-w-none" loading="lazy" />
                         {{ end }}
@@ -206,8 +225,56 @@
         </div>
     </div>
 
+    <!--  Developer -->
+    <div class="relative my-4">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
+            <div class="relative sm:py-8 lg:py-0">
+                <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
+                    <div class="absolute inset-y-0 w-full bg-gray-50 dark:bg-gray-900/10 right-1/2 rounded-r-3xl lg:right-72"></div><svg class="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392" loading="lazy">
+                        <defs>
+                            <pattern id="02f20b47-fd69-4224-a62a-4c9de5c763f7" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <rect x="0" y="0" width="4" height="4" class="text-gray-200 dark:text-gray-900/60" fill="currentcolor"></rect>
+                            </pattern>
+                        </defs>
+                        <rect width="404" height="392" fill="url(#02f20b47-fd69-4224-a62a-4c9de5c763f7)"></rect>
+                    </svg>
+                </div>
+                <div class="relative w-full h-auto px-4 py-6 mx-auto sm:max-w-3xl sm:px-6 lg:px-0 lg:py-20">
+                    <div class="overflow-hidden shadow-xl rounded-2xl">
+                        {{ $p8image := resources.Get .Site.Params.P8.Image }}
+                        {{ with $p8image }}
+                            {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+                                <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-full h-auto" alt="P6" loading="lazy" />
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="relative max-w-md px-4 mx-auto sm:max-w-3xl sm:px-6 lg:px-0">
+                <div class="md:pt-12 sm:pt-6 lg:pt-20">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
+                        {{ .Site.Params.P8.Heading }}
+                    </h2>
+                    <div class="mt-6 text-gray-900 dark:text-white">
+                        <div class="mt-6 space-y-6 text-gray-900 dark:text-white">
+                            {{ range .Site.Params.P8.Content }}
+                                <p class="text-lg text-gray-900 dark:text-white">
+                                    {{ .text }}
+                                </p>
+                            {{ end }}
+                            <div class="mt-4 sm:mt-0 sm:ml-0">
+                                <button type="submit" class="block w-full px-5 py-3 text-base font-medium text-white bg-gray-900 border border-transparent rounded-md shadow hover:bg-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-500 sm:px-10">
+                                    {{ .Site.Params.P8.Button }}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Sponsors section -->
+    <!-- Sponsors section
     <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
         <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
             <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
@@ -242,6 +309,7 @@
             </div>
         </div>
     </div>
+    -->
 
     <!-- Blog section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">

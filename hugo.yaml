@@ -52,48 +52,54 @@ params:
   og_image: /images/tailbliss-cover.png
   moto: "Audiovisual Production & Web Development"
   description: "Reverse Polarity & SA Studios is a creative agency that specializes in audiovisual production and web development. More than 10 years of experience in music production, mixing, mastering and software development."
-  disable_theme_toggle: false
-  disable_stay_uptodate: false
+  disable_theme_toggle: true
+  disable_stay_uptodate: true
 
   p1:
     heading: "Music Production for Film, Games, and Commercials"
-    image: "images/pages/music-production.png"
+    image: "images/pages/film.png"
     content:
       - text: "The right music can transform a project, adding depth and emotion to every scene. Whether you’re creating a film, game, or commercial, your story deserves a soundtrack that resonates."
       - text: "We work closely with you to compose original music tailored to your vision. From ambient soundscapes to dynamic scores, we focus on enhancing your message and engaging your audience."
       - text: "Our goal is simple: to provide music that fits seamlessly into your project and brings it to life."
+    button: "Learn more"
 
   p2:
     heading: "Mixing and Mastering Services"
-    image: "images/pages/mixing-mastering.png"
+    image: "images/pages/ableton.png"
     content:
       - text: "Your music deserves to sound its best, whether you’re releasing a single or finalizing an album. We know how challenging it can be to get everything just right."
       - text: "Our mixing and mastering services help refine your tracks, ensuring clarity and balance. With professional tools and a collaborative approach, we’ll work together to create a sound you’re proud of."
       - text: "We aim to make the process straightforward and the results something you’re excited to share."
+    button: "Get a quote"
 
   p6:
     heading: "Computer-Generated Imagery for Art and Media"
-    image: "images/pages/cgi-services.png"
+    image: "images/pages/cgi.png"
     content:
       - text: "Striking visuals can elevate any creative project, from art installations to music videos. We understand the importance of capturing your audience’s attention with compelling imagery."
       - text: "Our CGI services provide detailed, customized visuals designed to complement your vision. Whether it’s for a light show or a digital art piece, we’ll help you create something memorable."
       - text: "We focus on collaboration and quality, ensuring your ideas come to life exactly as imagined."
+    button: "Learn more"
 
   p7:
     heading: "Record Label and Artist Consulting"
-    image: "images/pages/artist-consulting.png"
+    image: "images/pages/spotify.png"
     content:
       - text: "For new artists, building an online presence and growing a fan base can feel overwhelming. We’re here to help simplify the process and focus on what matters most—your music."
       - text: "Our consulting services cover everything from social media strategy to personal website creation. We also guide you through boosting your streams and running effective ad campaigns."
       - text: "The goal is to help you connect with your audience and grow sustainably, one step at a time."
+    button: "Get started"
 
   p8:
     heading: "Web and Software Development"
-    image: "images/pages/web-development.png"
+    image: "images/pages/coding.png"
     content:
       - text: "Technology should support your goals, not complicate them. Whether you need a website, backend services, or data visualization, we’re here to make the process easier."
       - text: "We offer tailored solutions like web hosting, complex data analysis, and backend development. Each service is designed to meet your specific needs and adapt as you grow."
       - text: "Our aim is to handle the technical side so you can focus on your priorities."
+    button: "Get a quote"
+
   p3:
     heading: "Backed by world-renowned investors"
     content:
@@ -140,35 +146,47 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
+#    - identifier: prose
+#      name: Prose
+#      url: /prose/
+#      weight: 10
     - identifier: about
       name: About
       url: /about/
       weight: 20
     - identifier: categories
       pre: dropdown
-      name: Categories
+      name: Services
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
+#    - identifier: dropdown
+#      pre: complexdropdown
+#      name: Dropdown
+#      weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
   categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
+    - identifier: music
+      name: Music Production
+      url: /music-production/
       weight: 10
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: mixing
+      name: Mixing & Mastering
+      url: /mixing-mastering/
+      weight: 15
+    - identifier: cgi
+      name: Visual Production
+      url: /cgi/
       weight: 20
+    - identifier: artist-growth
+      name: Artist Growth
+      url: /artist-growth/
+      weight: 25
+    - identifier: software
+      name: Software Development
+      url: /software-development/
+      weight: 30
   dropdown:
     - identifier: appearance
       pre: stars # can be stars, comments or piechart
