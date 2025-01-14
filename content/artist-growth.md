@@ -7,3 +7,11 @@ description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
 slug: artist-growth
 ---
+
+# Understanding your audience
+
+# Choosing the right platform
+
+# Investing in ads
+
+# Promoting your music

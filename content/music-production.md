@@ -7,3 +7,9 @@ description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
 slug: music-production
 ---
+
+# Producing for film
+
+# Producing for commercials
+
+# OST development

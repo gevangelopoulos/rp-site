@@ -158,10 +158,10 @@ menu:
 #      name: Prose
 #      url: /prose/
 #      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+#    - identifier: about
+#      name: About
+#      url: /about/
+#      weight: 20
     - identifier: categories
       pre: dropdown
       name: Services
@@ -215,22 +215,10 @@ menu:
       url: "#"
       weight: 30
   footer:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /categories/blog/
-      weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
+#    - identifier: about
+#      name: About
+#      url: /about/
+#      weight: 10
     - identifier: contact
       name: Contact
       url: /contact/

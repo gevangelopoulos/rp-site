@@ -7,3 +7,9 @@ description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
 slug: software-development
 ---
+
+# Website development
+
+# Ecommerce analytics and dashboards
+
+# A web app for your business

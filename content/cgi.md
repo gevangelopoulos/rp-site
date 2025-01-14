@@ -7,3 +7,8 @@ description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
 slug: cgi
 ---
+
+# Your music video
+
+# CGI installation for your space
+
