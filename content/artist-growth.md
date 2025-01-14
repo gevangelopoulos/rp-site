@@ -5,4 +5,5 @@ draft: false
 language: en
 description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
+slug: artist-growth
 ---

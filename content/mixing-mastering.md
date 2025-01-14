@@ -5,6 +5,7 @@ draft: false
 language: en
 description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
+slug: mixing-mastering
 ---
 
 At our online music mixing service, we take your multitrack recording and deliver a balanced mix where all
