@@ -1,4 +1,4 @@
-baseURL: 'localhost:1313/'
+baseURL: 'https://reversepolarity.be/'
 title: Reverse Polarity & SA Studios
 languageCode: en-us
 DefaultContentLanguage: en
@@ -64,7 +64,7 @@ params:
       - text: "We work closely with you to compose original music tailored to your vision. From ambient soundscapes to dynamic scores, we focus on enhancing your message and engaging your audience."
       - text: "Our goal is simple: to provide music that fits seamlessly into your project and brings it to life."
     button: "Learn more"
-    slug: "music-production"
+    slug: "music-production/"
 
 
   p2:
@@ -75,7 +75,7 @@ params:
       - text: "Our mixing and mastering services help refine your tracks, ensuring clarity and balance. With professional tools and a collaborative approach, we’ll work together to create a sound you’re proud of."
       - text: "We aim to make the process straightforward and the results something you’re excited to share."
     button: "Get a quote"
-    slug: "mixing-mastering"
+    slug: "mixing-mastering/"
 
   p6:
     heading: "Computer-Generated Imagery for Art and Media"
@@ -85,7 +85,7 @@ params:
       - text: "Our CGI services provide detailed, customized visuals designed to complement your vision. Whether it’s for a light show or a digital art piece, we’ll help you create something memorable."
       - text: "We focus on collaboration and quality, ensuring your ideas come to life exactly as imagined."
     button: "Learn more"
-    slug: "cgi"
+    slug: "cgi/"
 
 
   p7:
@@ -96,7 +96,7 @@ params:
       - text: "Our consulting services cover everything from social media strategy to personal website creation. We also guide you through boosting your streams and running effective ad campaigns."
       - text: "The goal is to help you connect with your audience and grow sustainably, one step at a time."
     button: "Get started"
-    slug: "artist-growth"
+    slug: "artist-growth/"
 
   p8:
     heading: "Web and Software Development"
@@ -106,7 +106,7 @@ params:
       - text: "We offer tailored solutions like web hosting, complex data analysis, and backend development. Each service is designed to meet your specific needs and adapt as you grow."
       - text: "Our aim is to handle the technical side so you can focus on your priorities."
     button: "Get a quote"
-    slug: "software-development"
+    slug: "software-development/"
 
   p3:
     heading: "Backed by world-renowned investors"
@@ -260,3 +260,17 @@ module:
   hugoVersion:
     extended: true
     min: "0.114.0"
+#  imports:
+#    - path: github.com/nusserstudios/tailbliss
+#      mounts:
+#        - source: layouts
+#          target: layouts
+#        - source: i18n
+#          target: i18n
+#        - source: archetypes
+#          target: archetypes
+#        - source: assets
+#          target: assets
+#          excludeFiles: images/* # uncomment for production
+##        - source: content # comment for production
+##          target: content # comment for production

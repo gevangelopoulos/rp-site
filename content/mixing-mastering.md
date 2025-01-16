@@ -19,8 +19,8 @@ Audio mixing involves combining individual tracks—such as vocals, instruments,
 These tracks, and their grouped stems, are adjusted and balanced to ensure clarity, depth, and alignment with the intended
 artistic vision.
 
-[Start now](https://www.reversepolarity.be/contact?ref=mixing-mastering) or
-[read more about mixing](https://www.reversepolarity.be/posts/mixing).
+[Start now](https://www.reversepolarity.be/contact/) or
+[read more about mixing](https://www.reversepolarity.be/#).
 
 
 ---
@@ -31,6 +31,6 @@ and compatibility across playback systems.Online streaming services like Spotify
 [loudness targets](https://support.spotify.com/uk/artists/article/loudness-normalization/) and audio quality requirements that mastering engineers must meet.
 The same goes for physical formats like CDs and vinyl records.
 
-[Start now](https://www.reversepolarity.be/contact?ref=mixing-mastering) or
-[read more about mastering](https://www.reversepolarity.be/posts/mastering).
+[Start now](https://www.reversepolarity.be/contact/) or
+[read more about mastering](https://www.reversepolarity.be/#).
 
