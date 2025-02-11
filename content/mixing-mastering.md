@@ -11,9 +11,6 @@ slug: mixing-mastering
 [Start now](https://reversepolarity.be/contact/) or
 [read more about mixing](https://reversepolarity.be/#).
 
-
-[loudness targets](https://support.spotify.com/uk/artists/article/loudness-normalization/)
-
 [Start now](https://reversepolarity.be/contact/) or
 [read more about mastering](https://reversepolarity.be/#).
 
@@ -23,13 +20,14 @@ Mastering is the essential final step in audio production, transforming a great
 mix into a polished, professional track ready for distribution. At SA Studios,
 we believe every track deserves the nuance and care only professional mastering
 can deliver. Mastering professionally ensures that your music not only meets
-industry standards but also resonates with listeners across all platforms and
+[industry standards](https://mojosarmy.medium.com/recording-and-mixing-levels-demystified-151ec65705fa)
+but also resonates with listeners across all platforms and
 playback systems. It’s about making your music sound its absolute
 best—everywhere.
 
 Unlike automated mastering tools, our human-driven approach captures the
 emotional essence of your music while addressing technical details such as
-dynamic range, tonal balance, and loudness consistency. George Evangelopoulos,
+dynamic range, tonal balance, and loudness consistency. Jean Mercier,
 the lead mastering engineer, combines years of expertise with an arsenal of
 state-of-the-art tools, ensuring every track tells its story in the most
 impactful way possible.
@@ -48,8 +46,10 @@ scenarios—everything from hi-fi home systems and cinema setups to budget
 earbuds and smartphone speakers. This thorough testing guarantees your track
 maintains its integrity, no matter where or how it’s heard.
 
-Our expertise also extends to immersive formats such as Dolby Atmos and spatial
-audio for gaming. By leveraging cutting-edge tools like iZotope RX, Ozone, and
+Our expertise also extends to immersive formats such as
+[Dolby Atmos](https://professionalsupport.dolby.com/s/article/Dolby-Atmos-Understanding-the-Concept?language=en_US)
+and spatial audio for gaming. By leveraging cutting-edge tools like iZotope RX,
+[Ozone](https://www.izotope.com/en/learn/how-to-master-a-song-from-start-to-finish.html), and
 Nectar, we craft mixes and masters that remain balanced and compelling, even in
 the most demanding audio environments.
 
@@ -58,7 +58,8 @@ the most demanding audio environments.
 Why settle for less when the best tools and techniques are available? At SA
 Studios, we stay ahead of the curve by adopting the latest technologies and
 best practices used by industry professionals. We follow every detail of the
-guidelines set by streaming services like Spotify, Apple Music, and Tidal to
+[guidelines](https://support.spotify.com/uk/artists/article/loudness-normalization/)
+set by streaming services like Spotify, Apple Music, and Tidal to
 ensure your music not only meets but exceeds technical standards. From
 achieving precise loudness targets to optimizing for surround sound and
 immersive audio, we’ve got it covered.
@@ -67,7 +68,7 @@ Our suite of industry-leading plugins includes the full iZotope Ozone suite for
 mastering, RX for audio restoration, and Nectar for vocal processing. These
 tools enable us to sculpt your tracks with surgical precision, addressing
 everything from EQ and compression to stereo imaging and harmonic enhancement.
-Combined with George’s “magical ears” and years of experience, our mastering
+Combined with Jean’s “magical ears” and years of experience, our mastering
 delivers results that elevate your music to a professional level.
 
 # Our Workflow
@@ -86,7 +87,7 @@ path.
 
 Once the technical aspects are perfected, we move on to rigorous testing.
 Tracks are evaluated in multiple environments—studio monitors, headphones, car
-speakers, and more—to ensure consistency and excellence across all playback
+speakers, and [more](https://lese.io/plugin/eigen/)—to ensure consistency and excellence across all playback
 systems. This exhaustive approach ensures your music is ready for the real
 world, whether it’s streamed online or played in a high-end audio setup.
 

@@ -12,7 +12,7 @@ slug: artist-growth
 
 At SA Studios, we understand that creating music is deeply personal and takes
 immense effort. Yet, one of the greatest challenges many artists face is
-ensuring their work reaches the right audience. George Evangelopoulos, with
+ensuring their work reaches the right audience. Jean Mercier, with
 nearly two decades of experience in music creation and collaboration, has
 encountered this challenge firsthand. Many artists feel overwhelmed by the
 demands of promotion, whether due to a focus on their craft, discomfort with
@@ -31,7 +31,8 @@ appreciate it.
 Your artistic identity is the foundation of your public presence. At SA
 Studios, we work closely with you to craft a professional, authentic image that
 resonates with your audience. Whether you’re starting fresh or refining an
-existing persona, our team will help you develop a visual and narrative
+existing [persona](https://www.linkedin.com/pulse/5-keys-building-strong-music-brand-persona-connects-your-cari-cole/)
+, our team will help you develop a visual and narrative
 identity that aligns with your artistic vision.
 
 We dive deep into your story, exploring your influences, goals, and artistic

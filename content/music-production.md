@@ -7,21 +7,23 @@ description: Tailwind Typography @tailwindcss/typography & Prose
 featured_image: ../assets/images/featured/pexels-hendrikbgr-744318.jpg
 slug: music-production
 ---
+
 # Craftsmanship and Expertise
 SA Studios represents the artistic vision of Reverse Polarity and was established in 2023 to push the boundaries of creative collaboration.
-At its core, SA Studios is driven by the passion and experience of its founder, George Evangelopoulos.
-With a portfolio boasting over 100 compositions for plays, ballets, and international competitions,
+At its core, SA Studios is driven by the passion and experience of its founder, Jean Mercier.
+With a portfolio boasting over 100 compositions for plays, ballets, and [international competitions](https://thecuetube.com/score-relief),
 
-George has built a reputation for versatility and innovation in music production.
+Jean has built a reputation for versatility and innovation in music production.
 Using state-of-the-art techniques, SA Studios blends traditional musical craftsmanship with cutting-edge technology.
 The studio is equipped with industry-leading software like the iZotope suite, Pro Tools, and Ableton Live,
 paired with hardware such as SSL mixing consoles and Neumann microphones. From carefully capturing the nuances
 of an acoustic ensemble to designing evocative synthetic soundscapes, SA Studios thrives on attention to detail.
-The team collaborates with a vast network of world-class session musicians, orchestras, and sound designers, ensuring
+The team collaborates with a network of world-class session musicians, orchestras, and sound designers, ensuring
 every project gets the expertise it deserves.
 
 Whether you're seeking a sweeping orchestral score or a gritty cyberpunk
-atmosphere, SA Studios delivers with confidence,creativity, and a deep understanding of narrative storytelling through music.
+atmosphere, SA Studios delivers with confidence,creativity, and a deep understanding of
+[narrative storytelling](https://medium.com/@kenhao/the-brief-history-of-music-storytelling-42ca9684bacf) through music.
 Every note is crafted to resonate with the listener and elevate the story it's part of.
 
 # Producing for Film
@@ -30,9 +32,10 @@ At SA Studios, we understand that film music is an essential storytelling tool.
 The right soundtrack transforms a scene, deepening emotions and driving the narrative forward.
 We specialize in creating bespoke compositions that align perfectly with the vision of filmmakers, producers, and directors.
 
-George’s diverse musical background allows him to seamlessly transition between genres, whether it’s a heart-pounding action score,
+Jean’s diverse musical background allows him to seamlessly transition between genres, whether it’s a heart-pounding action score,
 an emotional romantic theme, or a minimalist underscore for an arthouse project. Utilizing
-virtual instrument libraries such as Spitfire Audio, Vienna Symphonic Library, and Native Instruments’ Komplete Ultimate,
+virtual instrument libraries such as Spitfire Audio, [Metropolis Ark 1](https://www.orchestraltools.com/metropolis-ark-1),
+and Native Instruments’ [Komplete Ultimate](https://www.native-instruments.com/en/products/komplete/bundles/komplete-15-ultimate/),
 SA Studios can simulate full orchestral arrangements or craft intimate piano solos. For those seeking live recordings,
 our partnerships with orchestras and musicians worldwide ensure authenticity and richness in every note.
 
@@ -44,7 +47,7 @@ we bring it to life with precision and creativity.
 
 
 # Producing for commercials
-Producing for Commercials
+
 In the fast-paced world of advertising, music has the power to captivate audiences within seconds.
 At SA Studios, we specialize in producing tailor-made compositions for commercials that leave a lasting impression.
 From bold and upbeat tracks for tech launches to elegant, understated melodies for luxury brands, we understand how to use music to connect with diverse audiences.
@@ -60,13 +63,13 @@ SA Studios ensures that your commercial soundtrack is not only memorable but als
 amplifying your brand’s presence in a crowded media landscape.
 
 # OST development
-Original Game Soundtrack Development
+
 Video games demand a unique approach to music production, where interactivity and immersion are key. At SA Studios, we excel in creating original game soundtracks that
 enhance gameplay, evoke emotions, and deepen the player’s connection to the virtual world.
 
-Drawing inspiration from George Evangelopoulos’s experience as a guitarist and producer, we craft
+Drawing inspiration from Jean Mercier’s experience as a guitarist and producer, we craft
 soundtracks that are as dynamic and engaging as the games themselves. Our studio leverages advanced tools
-like FMOD and Wwise to implement adaptive music systems, ensuring seamless transitions between themes
+like [FMOD](https://www.fmod.com/) and [Wwise](https://www.audiokinetic.com/en/wwise/overview/) to implement adaptive music systems, ensuring seamless transitions between themes
 based on in-game actions. From epic orchestral scores for fantasy RPGs to pulsating synth-driven tracks for sci-fi adventures, our compositions bring game worlds to life.
 
 The process begins with close collaboration with developers to understand the game’s narrative, setting,
