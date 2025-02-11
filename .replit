@@ -5,7 +5,8 @@ run = "hugo server"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "hugo server"]
+run = ["sh", "-c", "hugo server --bind=0.0.0.0 --baseURL=https://${REPL_SLUG}.${REPL_OWNER}.repl.co"]
+build = ["sh", "-c", "hugo --gc --minify"]
 
 [[ports]]
 localPort = 1313
@@ -13,5 +14,20 @@ externalPort = 80
 exposeLocalhost = true
 
 [[ports]]
+localPort = 41583
+externalPort = 3001
+
+[[ports]]
 localPort = 45217
 externalPort = 3000
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 1801819
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "hugo server --bind=0.0.0.0 --baseURL=https://${REPL_SLUG}.${REPL_OWNER}.repl.co"
