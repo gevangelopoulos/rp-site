@@ -1,0 +1,13 @@
+modules = ["nodejs-20", "web"]
+run = "hugo server"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "hugo server"]
+
+[[ports]]
+localPort = 1313
+externalPort = 80
+exposeLocalhost = true
