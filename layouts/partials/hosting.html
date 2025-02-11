@@ -1,53 +1,50 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="out.css">
     <title>Hosting Request - Reverse Polarity</title>
 </head>
-<body class="bg-slate-900">
-<div class="max-w-2xl mx-auto pt-20 px-4">
-    <h1 class="text-4xl font-bold text-sky-500 mb-8">Hosting Requirements Form</h1>
-    <form action="https://formsubmit.co/984d49d8be75da51d6d8092e0b101423" method="POST" class="space-y-6">
-        <div>
-            <label class="block text-sky-400 mb-2">Do you need a domain name?</label>
-            <select name="domain_requirement" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500">
-                <option value="yes">Yes, I need a domain</option>
-                <option value="no">No, I have my own domain</option>
-            </select>
-        </div>
+<body class="bg-slate-900 min-h-screen">
+    <div class="max-w-2xl mx-auto pt-20 px-4">
+        <h1 class="text-4xl font-bold text-sky-500 mb-8">Hosting Requirements Form</h1>
+        <form action="https://formsubmit.co/984d49d8be75da51d6d8092e0b101423" method="POST" class="space-y-6">
+            <div>
+                <label class="block text-sky-400 mb-2">Do you need a domain name?</label>
+                <select name="domain_requirement" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500">
+                    <option value="yes">Yes, I need a domain</option>
+                    <option value="no">No, I have my own domain</option>
+                </select>
+            </div>
+            
+            <div>
+                <label class="block text-sky-400 mb-2">Tenancy Preference</label>
+                <select name="tenancy" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500">
+                    <option value="shared">Shared Hosting</option>
+                    <option value="dedicated">Dedicated Server</option>
+                </select>
+            </div>
+            
+            <div>
+                <label class="block text-sky-400 mb-2">RAM Requirements (GB)</label>
+                <input type="number" name="ram" min="1" max="64" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500" required>
+            </div>
+            
+            <div>
+                <label class="block text-sky-400 mb-2">Storage Size (GB)</label>
+                <input type="number" name="storage" min="10" max="1000" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500" required>
+            </div>
+            
+            <div>
+                <label class="block text-sky-400 mb-2">Additional Requirements</label>
+                <textarea name="additional_info" rows="4" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500"></textarea>
+            </div>
 
-        <div>
-            <label class="block text-sky-400 mb-2">Tenancy Preference</label>
-            <select name="tenancy" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500">
-                <option value="shared">Shared Hosting</option>
-                <option value="dedicated">Dedicated Server</option>
-            </select>
-        </div>
-
-        <div>
-            <label class="block text-sky-400 mb-2">RAM Requirements (GB)</label>
-            <input type="number" name="ram" min="1" max="64" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500" required>
-        </div>
-
-        <div>
-            <label class="block text-sky-400 mb-2">Storage Size (GB)</label>
-            <input type="number" name="storage" min="10" max="1000" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500" required>
-        </div>
-
-        <div>
-            <label class="block text-sky-400 mb-2">Additional Requirements</label>
-            <textarea name="additional_info" rows="4" class="w-full p-2 rounded bg-slate-800 text-white border border-sky-500"></textarea>
-        </div>
-
-        <button type="submit" class="w-full bg-sky-500 text-white py-2 px-4 rounded hover:bg-sky-600 transition-colors">
-            Submit Request
-        </button>
-    </form>
-</div>
+            <button type="submit" class="w-full bg-sky-500 text-white py-2 px-4 rounded hover:bg-sky-600 transition-colors">
+                Submit Request
+            </button>
+        </form>
+    </div>
 </body>
 </html>

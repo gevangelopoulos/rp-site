@@ -160,6 +160,10 @@ params:
 
 menu:
   main:
+    - identifier: hosting
+      name: Hosting
+      url: /hosting/
+      weight: 45
 #    - identifier: prose
 #      name: Prose
 #      url: /prose/
