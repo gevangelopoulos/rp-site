@@ -11,3 +11,7 @@ run = ["sh", "-c", "hugo server"]
 localPort = 1313
 externalPort = 80
 exposeLocalhost = true
+
+[[ports]]
+localPort = 45217
+externalPort = 3000
