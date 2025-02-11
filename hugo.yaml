@@ -1,7 +1,13 @@
-baseURL: '/'
+baseURL: 'https://${REPL_SLUG}.${REPL_OWNER}.repl.co'
 title: Reverse Polarity & SA Studios
 languageCode: en-us
 DefaultContentLanguage: en
+server:
+  headers:
+    - for: /**
+      values:
+        X-Frame-Options: ALLOW-FROM https://replit.com
+        Content-Security-Policy: frame-ancestors 'self' https://replit.com
 enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
